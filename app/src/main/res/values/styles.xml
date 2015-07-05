@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Office" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextStyle">@style/Office.EditTextStyle</item>
+        <item name="android:buttonStyle">@style/Office.ButtonStyle</item>
+    </style>
+
+    <style name="Office.EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+    </style>
+
+    <style name="Office.ButtonStyle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+</resources>
